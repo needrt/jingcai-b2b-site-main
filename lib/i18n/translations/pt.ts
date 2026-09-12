@@ -1,0 +1,316 @@
+import type { Translations } from '../types';
+
+export const pt: Translations = {
+  topline: {
+    company: 'PUJIANG JINGCAI THREAD CO., LTD.',
+    tagline: 'Dos nossos fios à sua próxima criação.',
+  },
+  header: {
+    wordmarkSub: 'FIOS COM INTEGRIDADE.',
+    navProducts: 'Nossos fios',
+    navColors: 'Paleta de cores',
+    navFactory: 'Nossa fábrica',
+    navFilms: 'Vídeos da fábrica',
+    cta: 'Fale conosco',
+    skipLink: 'Pular para o conteúdo',
+    menuClose: 'Fechar menu',
+    menuOpen: 'Abrir menu',
+    langSelectLabel: 'Alterar idioma',
+  },
+  hero: {
+    eyebrow: 'FABRICAÇÃO ESPECIALIZADA DESDE 1995.',
+    title1: 'Grandes criações',
+    title2: 'começam com',
+    title3: 'um bom fio.',
+    desc1: 'Linhas de costura que unem suas ideias.',
+    desc2: 'Feitas com cuidado. Coloridas com infinitas possibilidades.',
+    btnProducts: 'Explorar nossa coleção',
+    btnContact: 'Encontre a opção ideal',
+    note: 'SEU PARCEIRO, DO PRIMEIRO PONTO AO PRODUTO FINAL.',
+    visualLabel: 'UM MUNDO DE CORES. UM FIO DE QUALIDADE.',
+    collectionIndex: '01 / COLEÇÃO JINGCAI',
+    scrollPrompt: 'ROLE PARA DESCOBRIR ↓',
+  },
+  proof: {
+    yearVal: '1995',
+    yearLabel: 'Início da nossa trajetória',
+    colorsVal: '+2.000',
+    colorsLabel: 'Cores disponíveis em catálogo',
+    partnerVal: 'Um único parceiro.',
+    partnerLabel: 'Do tingimento ao fio acabado',
+    badge1: 'Produzido para a indústria têxtil.',
+    badge2: 'Sob medida para suas necessidades.',
+  },
+  products: {
+    eyebrow: '01 / NOSSOS FIOS',
+    title1: 'Pequenos detalhes.',
+    title2: 'Infinitas possibilidades.',
+    subtitle1:
+      'Descubra nossas linhas de costura em poliéster da marca Qianye.',
+    subtitle2: 'Uma cartela para cada projeto, um parceiro para cada pedido.',
+    cardTag: 'LINHA DE COSTURA 100% POLIÉSTER',
+    cardViewSpec: 'Coleção Qianye · Ver especificações',
+    items: {
+      everyday: {
+        name: 'Essenciais do dia a dia',
+        note: 'BRANCO E TONS NEUTROS',
+      },
+      depth: {
+        name: 'Profundidade em cada ponto',
+        note: 'TONS PROFUNDOS E CLÁSICOS',
+      },
+      standout: {
+        name: 'Feito para se destacar',
+        note: 'TONS VIBRANTES E EXPRESSIVOS',
+      },
+    },
+    rangeNote:
+      'Também busca linhas de algodão ou um título específico? Conheça opções de 20s/2 a 60s/3 com nossa equipe.',
+    rangeCta: 'Consultar especificações técnicas',
+  },
+  colors: {
+    caption: 'COLEÇÃO QIANYE / FOTOGRAFIA REAL DO PRODUTO',
+    eyebrow: '02 / ENCONTRE SUA COR',
+    title1: 'Sua ideia.',
+    title2: 'Perfeitamente combinada.',
+    desc: 'De neutros suaves a tons marcantes, encontre a linha ideal para sua coleção. Conheça algumas de nossas cores abaixo.',
+    finePrint:
+      'As cores na tela são ilustrativas. Solicite uma amostra física para confirmar a tonalidade exata.',
+    sampleBtn: 'Solicitar amostra de cor',
+    sampleWaMsg:
+      'Olá Isla, gostaria de solicitar uma amostra física da linha de costura na cor {color}. Por favor, informe títulos disponíveis e condições.',
+    names: {
+      navy: 'Azul marinho meia-noite',
+      white: 'Branco puro',
+      red: 'Vermelho carmesim',
+      yellow: 'Amarelo dourado',
+      sky: 'Azul celeste',
+      pink: 'Rosa suave',
+      purple: 'Roxo imperial',
+      wine: 'Bordô',
+      lavender: 'Lavanda suave',
+    },
+  },
+  about: {
+    eyebrow: '03 / TRADIÇÃO E EXPERIÊNCIA',
+    title1: 'Dedicado ao ofício.',
+    title2: 'Prontos para seu próximo pedido.',
+    p1: 'Desde 1995, a Pujiang Jingcai Thread Co., Ltd. une o tingimento especializado à produção de fios. Nossa marca Qianye se baseia em uma crença simples: parcerias duradouras começam no cuidado com cada detalhe.',
+    p2: 'A partir de nossa fábrica em Zhejiang, China, fornecemos linhas de costura para clientes em todo o país e na Europa, Sudeste Asiático, Ásia Central, América Latina e África.',
+    point1: 'Produção integrada: tingimento e bobinagem próprios',
+    point2: 'Opções em poliéster e algodão',
+    point3: 'Fabricação OEM / ODM e desenvolvimento de cores sob medida',
+    fbLink: 'Conheça a Jingcai no Facebook',
+    estYear: 'FUNDADA EM 1995',
+    location: 'PUJIANG, ZHEJIANG · CHINA',
+    appEyebrow: 'NOS DETALHES, TUDO SE COMPLETA.',
+    appTitle1: 'Um acabamento superior',
+    appTitle2: 'começa aqui.',
+    appP1: 'Vestuário. Têxteis para o lar. Artigos essenciais.',
+    appP2:
+      'Diga-nos o que você confecciona. Ajudaremos a escolher o material, título e cor ideais para sua confecção.',
+    appLink: 'Converse sobre sua aplicação',
+  },
+  factoryShowcase: {
+    eyebrow: 'POR DENTRO DA JINGCAI',
+    heading1: 'Mais do que um fornecedor.',
+    heading2: 'O lugar onde o fio ganha vida.',
+    intro:
+      'Conheça o chão de fábrica da Jingcai. Do tingimento ao bobinamento e encaixotamento, veja de perto a dedicação em cada linha de costura.',
+    watchLink: 'Veja a fábrica em ação',
+    stories: [
+      {
+        num: '01',
+        title: 'Cor na fonte.',
+        desc: 'O tingimento próprio integrado à produção de fios une suas necessidades de cor e material em uma única conversa.',
+      },
+      {
+        num: '02',
+        title: 'Feito sob medida para seu pedido.',
+        desc: 'Defina título, metragem, tons e embalagem com nossa equipe técnica antes de iniciar a confecção.',
+      },
+      {
+        num: '03',
+        title: 'Muito além do catálogo.',
+        desc: 'Acompanhe as máquinas, o ritmo diário e o empacotamento em fotos e vídeos reais do nosso processo.',
+      },
+    ],
+    photos: {
+      production: {
+        label: '01 / NO CHÃO DE FÁBRICA',
+        title: 'Um olhar atento à confecção',
+        desc: 'Linhas de maquinário produtivo no parque fabril da Jingcai.',
+      },
+      dyeing: {
+        label: '02 / TINGIMENTO',
+        title: 'Onde a cor ganha vida',
+        desc: 'Bobinas de linha e autoclaves de tingimento da fábrica.',
+      },
+      winding: {
+        label: '03 / BOBINAMENTO',
+        title: 'Da fiação ao cone pronto',
+        desc: 'Cones de linha branca nas estações de enrolamento rápido.',
+      },
+      people: {
+        label: '04 / PRODUÇÃO DIÁRIA',
+        title: 'Os artesãos da linha',
+        desc: 'A equipe de operadores e os postos de bobinamento de precisão.',
+      },
+      packing: {
+        label: '05 / EMBALAGEM',
+        title: 'Preparando a próxima remessa',
+        desc: 'Cones organizados e prontos para exportação internacional.',
+      },
+    },
+    store: {
+      photoLabel: 'LOJA E SHOWROOM DA FÁBRICA',
+      eyebrow: 'VAMOS NOS ENCONTRAR PESSOALMENTE',
+      title1: 'Cores autênticas.',
+      title2: 'Diálogo direto.',
+      p1: 'Nossa loja física reúne a linha Qianye em um só ambiente. Toque nos cones, compare matizes e converse sobre o que sua empresa necessita.',
+      p2: 'Planeja nos visitar? Contate a Isla para confirmar nosso endereço e marcar um horário favorável.',
+      visitBtn: 'Agendar uma visita',
+      visitWaMsg:
+        'Olá Isla, gostaria de visitar a loja de fábrica da Jingcai. Poderia confirmar a localização e um horário favorável?',
+      location: 'Zhejiang, China · Visitas com agendamento',
+      detailEyebrow: 'DE UMA AMOSTRA A UMA PARCERIA',
+      detailTitle1: 'Um olhar detalhado.',
+      detailTitle2: 'Uma escolha com total segurança.',
+      detailP:
+        'Traga uma referência de cor, amostra de tecido ou suas especificações para encontrarmos as melhores opções juntos.',
+      talkTeam: 'Falar com a equipe',
+    },
+  },
+  factoryFilms: {
+    eyebrow: 'A FÁBRICA EM MOVIMENTO',
+    heading1: 'Veja o trabalho acontecendo.',
+    heading2: 'Conheça seu próximo parceiro.',
+    intro1: 'Uma janela para o dia a dia na fábrica da Jingcai.',
+    intro2: 'Cenas reais. Da nossa fiação direto para a sua tela.',
+    tiktokLink: 'Siga @jingcai.thread no TikTok',
+    fieldNotes: 'JINGCAI / DIÁRIO DE CAMPO',
+    playlistHeading: 'EXPLORE OS VÍDEOS',
+    videoError: 'Não foi possível reproduzir este vídeo.',
+    openVideo: 'Abrir arquivo de vídeo',
+    watchTiktok: 'Assistir no TikTok',
+    moreTiktok: 'Mais vídeos da fábrica no TikTok',
+    items: {
+      'film-01': {
+        category: 'PRODUÇÃO',
+        title: 'Na linha de produção',
+        desc: 'Detalhes dos teares em operação e bobinas sendo formadas.',
+      },
+      'film-02': {
+        category: 'BOBINAMENTO',
+        title: 'Um universo de cores em movimento',
+        desc: 'Cones coloridos e máquinas de enrolamento no pavilhão.',
+      },
+      'film-03': {
+        category: 'ESTEIRA',
+        title: 'Pela esteira transportadora',
+        desc: 'Cones de linha branca avançando ao longo da linha técnica.',
+      },
+      'film-04': {
+        category: 'PARQUE FABRIL',
+        title: 'O ritmo das máquinas',
+        desc: 'Visão ampla do galpão com dezenas de máquinas de bobinamento.',
+      },
+      'film-05': {
+        category: 'ESTEIRA',
+        title: 'De um cone ao próximo',
+        desc: 'Cones em deslocamento contínuo e detalhes do acabamento.',
+      },
+      'film-06': {
+        category: 'DETALHES',
+        title: 'Cada cone a caminho',
+        desc: 'Cones de linhas escuras transitando na esteira automatizada.',
+      },
+      'film-07': {
+        category: 'EMBALAGEM',
+        title: 'Encaixotado e pronto para o embarque',
+        desc: 'Caixas de papelão reforçado com cones selecionados para envio.',
+      },
+    },
+  },
+  faq: {
+    eyebrow: 'ANTES DO SEU PRIMEIRO PEDIDO',
+    title1: 'Pontos importantes',
+    title2: 'para iniciar.',
+    moreQuestions: 'Tem outra dúvida?',
+    items: [
+      {
+        q: 'Quais títulos de linha vocês oferecem?',
+        a: 'Nossa linha padrão inclui 20s/2, 20s/3, 20s/6, 30s/2, 30s/3, 40s/2, 40s/3, 50s/2, 50s/3, 60s/2 e 60s/3. Consulte-nos para confirmar metragens, peso líquido e disponibilidade de estoque.',
+      },
+      {
+        q: 'Posso solicitar uma amostra ou cor personalizada?',
+        a: 'Sim, entre em contato para alinhar amostras e cartela de cores. Envie uma referência Pantone ou retalho de tecido, o título da linha e o uso desejado.',
+      },
+      {
+        q: 'Qual é o pedido mínimo (MOQ) e prazo de entrega?',
+        a: 'O MOQ e os prazos dependem da especificação, cores escolhidas, tipo de embalagem e volume do pedido. Envie seus requisitos e destino para receber uma cotação personalizada.',
+      },
+      {
+        q: 'Vocês fornecem certificados de qualidade?',
+        a: 'Nossa fábrica atua com gestão de qualidade ISO 9001:2015 e possui relatórios OEKO-TEX. Solicite os documentos vigentes à nossa equipe comercial.',
+      },
+    ],
+  },
+  contact: {
+    eyebrow: '04 / VAMOS TRABALHAR JUNTOS',
+    title1: 'Linha confiável.',
+    title2: 'Grande parceria.',
+    desc1: 'Conte-nos as necessidades do seu projeto.',
+    desc2: 'Vamos encontrar a linha certa juntos.',
+    contactRole: 'Seu contato na Jingcai · Inglês / Chinês',
+    waWechat: 'WhatsApp / WeChat',
+    locationChina: 'Zhejiang, China',
+    formHeading: 'Inicie sua consulta',
+    formSub: 'Envie alguns detalhes e cuidaremos de tudo.',
+    nameLabel: 'Seu nome',
+    namePlaceholder: 'Nome completo',
+    companyLabel: 'Empresa',
+    companyPlaceholder: 'Nome da sua empresa',
+    emailLabel: 'E-mail corporativo',
+    emailPlaceholder: 'voce@empresa.com',
+    reqLabel: 'O que você precisa?',
+    reqPlaceholder:
+      'Título da linha, cores, quantidade, tipo de costura e destino de envio…',
+    submitBtn: 'Preparar mensagem no WhatsApp',
+    formNote:
+      'Você poderá revisar a mensagem antes de enviá-la no WhatsApp. Seus dados não são armazenados neste site.',
+    readyTitle: 'Sua consulta está pronta.',
+    readyDesc:
+      'Abra o WhatsApp para conferir o texto e enviar sua mensagem para Isla.',
+    readyBtn: 'Continuar no WhatsApp',
+    waMsgTemplate:
+      'Olá Isla, gostaria de solicitar uma cotação da Jingcai.\nNome: {name}\nEmpresa: {company}\nE-mail: {email}\nRequisitos: {requirements}',
+  },
+  productDialog: {
+    title: 'Linha de costura em poliéster Qianye',
+    subtitle: 'Consulte as especificações adequadas à sua confecção.',
+    badge: '100% POLIÉSTER FIADO',
+    heading: 'Desenvolvida para uma costura resistente.',
+    brandLabel: 'Marca',
+    brandVal: 'Qianye / 千叶',
+    countsLabel: 'Títulos disponíveis',
+    countsVal:
+      '20s/2, 20s/3, 20s/6, 30s/2, 30s/3, 40s/2, 40s/3, 50s/2, 50s/3, 60s/2, 60s/3',
+    exampleLabel: 'Exemplo de especificação',
+    exampleVal: '40s/2 · 5000 jardas · 140 g peso líq.',
+    packingLabel: 'Cores e embalagem',
+    packingVal: 'Personalizável conforme o pedido',
+    finePrint:
+      'A fotografia exibe a cartela de cores e não um título ou metragem único. Confirme os dados finais na sua cotação.',
+    quoteBtn: 'Solicitar cotação',
+    quoteWaMsg:
+      'Olá Isla, tenho interesse na linha de poliéster Qianye na cor {color}. Por favor, envie títulos disponíveis, pedido mínimo, valores e opções de amostras.',
+  },
+  footer: {
+    company: 'Pujiang Jingcai Thread Co., Ltd. · Fundada em 1995',
+    rights:
+      '© {year} Pujiang Jingcai Thread Co., Ltd. Todos os direitos reservados.',
+    tagline: 'Qianye / 千叶 · Do primeiro ponto a parcerias duradouras.',
+    waAria: 'Conversar com Isla no WhatsApp',
+  },
+};

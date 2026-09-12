@@ -1,0 +1,93 @@
+[
+  {
+    "id": "film-01",
+    "source": "assets/video/Download (1).mp4",
+    "duration": 12.27,
+    "streams": [
+      "Stream #0:0[0x1](und): Audio: aac (HE-AACv2) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 32 kb/s (default)",
+      "Stream #0:1[0x2](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 576x1024 [SAR 1:1 DAR 9:16], 1682 kb/s, 30 fps, 30 tbr, 15360 tbn (default)"
+    ],
+    "asset": "/videos/film-01.mp4",
+    "poster": "/videos/film-01.webp",
+    "visual_description": "Running thread-production equipment and wound thread packages.",
+    "processing": "Lossless stream copy with MP4 faststart. Original video and audio preserved. Poster extracted at 1 second."
+  },
+  {
+    "id": "film-02",
+    "source": "assets/video/Download (2).mp4",
+    "duration": 20.17,
+    "streams": [
+      "Stream #0:0[0x1](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)",
+      "Stream #0:1[0x2](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 576x1024 [SAR 1:1 DAR 9:16], 849 kb/s, 30 fps, 30 tbr, 15360 tbn (default)"
+    ],
+    "asset": "/videos/film-02.mp4",
+    "poster": "/videos/film-02.webp",
+    "visual_description": "Colored thread cones and winding stations.",
+    "processing": "Lossless stream copy with MP4 faststart. Original video and audio preserved. Poster extracted at 1 second."
+  },
+  {
+    "id": "film-03",
+    "source": "assets/video/Download (3).mp4",
+    "duration": 18.13,
+    "streams": [
+      "Stream #0:0[0x1](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)",
+      "Stream #0:1[0x2](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 576x1024 [SAR 1:1 DAR 9:16], 870 kb/s, 30 fps, 30 tbr, 15360 tbn (default)"
+    ],
+    "asset": "/videos/film-03.mp4",
+    "poster": "/videos/film-03.webp",
+    "visual_description": "White thread cones moving along a production conveyor.",
+    "processing": "Lossless stream copy with MP4 faststart. Original video and audio preserved. Poster extracted at 1 second."
+  },
+  {
+    "id": "film-04",
+    "source": "assets/video/Download (4).mp4",
+    "duration": 41.77,
+    "streams": [
+      "Stream #0:0[0x1](und): Audio: aac (HE-AACv2) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 32 kb/s (default)",
+      "Stream #0:1[0x2](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 576x1024 [SAR 1:1 DAR 9:16], 1555 kb/s, 30 fps, 30 tbr, 15360 tbn (default)"
+    ],
+    "asset": "/videos/film-04.mp4",
+    "poster": "/videos/film-04.webp",
+    "visual_description": "Rows of winding equipment and colored thread cones across the workshop.",
+    "processing": "Lossless stream copy with MP4 faststart. Original video and audio preserved. Poster extracted at 1 second."
+  },
+  {
+    "id": "film-05",
+    "source": "assets/video/Download (5).mp4",
+    "duration": 35.23,
+    "streams": [
+      "Stream #0:0[0x1](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)",
+      "Stream #0:1[0x2](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 576x1024 [SAR 1:1 DAR 9:16], 1215 kb/s, 30 fps, 30 tbr, 15360 tbn (default)"
+    ],
+    "asset": "/videos/film-05.mp4",
+    "poster": "/videos/film-05.webp",
+    "visual_description": "White cones on a conveyor, packaged thread cones, and other production details.",
+    "processing": "Lossless stream copy with MP4 faststart. Original video and audio preserved. Poster extracted at 1 second."
+  },
+  {
+    "id": "film-06",
+    "source": "assets/video/Download (6).mp4",
+    "duration": 19.22,
+    "streams": [
+      "Stream #0:0[0x1](und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)",
+      "Stream #0:1[0x2](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/smpte432/bt709, progressive), 576x1024 [SAR 1:1 DAR 9:16], 1219 kb/s, 29.38 fps, 30 tbr, 15360 tbn (default)"
+    ],
+    "asset": "/videos/film-06.mp4",
+    "poster": "/videos/film-06.webp",
+    "visual_description": "Dark cones on a conveyor and views of production equipment.",
+    "processing": "Lossless stream copy with MP4 faststart. Original video and audio preserved. Poster extracted at 1 second."
+  },
+  {
+    "id": "film-07",
+    "source": "assets/video/Download.mp4",
+    "duration": 18.04,
+    "streams": [
+      "Stream #0:0[0x1](und): Audio: aac (HE-AACv2) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 32 kb/s (default)",
+      "Stream #0:1[0x2](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/smpte432/bt709, progressive), 576x1024 [SAR 1:1 DAR 9:16], 1356 kb/s, 27.17 fps, 30 tbr, 15360 tbn (default)"
+    ],
+    "asset": "/videos/film-07.mp4",
+    "poster": "/videos/film-07.webp",
+    "visual_description": "Cartons filled with colored thread cones.",
+    "processing": "Lossless stream copy with MP4 faststart. Original video and audio preserved. Poster extracted at 1 second."
+  }
+]

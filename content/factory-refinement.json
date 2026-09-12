@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-05",
+  "supersedes": "manifest.json first-pass recommendation",
+  "recommendation": "Both v3 candidates usable as disclosed AI-retouched display images per user steering; originals remain evidence source.",
+  "submissions_per_index": 3,
+  "remaining_budget": 0,
+  "requested_model": "nano_banana_pro",
+  "reported_model": "nano_banana_2",
+  "qa": "Viewed source and every result. Main storefront name 精彩线业, 工厂店, number 40923 preserved. Right window 义乌小商品城 now correct. Factory nearest labels 35 and 36 now correct. Broad space and machinery row retained; tiny text and exact mechanical details not exhaustively verified and may differ. No new factory scale or certification claims.",
+  "sources": [
+    [
+      {
+        "value": "a86abb64-7b00-4dc7-acf1-089fdde4551f",
+        "role": "image"
+      }
+    ],
+    [
+      {
+        "value": "e72cffae-d475-49ae-a667-0ec89115b092",
+        "role": "image"
+      }
+    ]
+  ],
+  "round2": {
+    "requests": [
+      {
+        "index": 0,
+        "params": {
+          "model": "nano_banana_pro",
+          "resolution": "2k",
+          "count": 1,
+          "aspect_ratio": "3:2",
+          "medias": [
+            {
+              "value": "a86abb64-7b00-4dc7-acf1-089fdde4551f",
+              "role": "image"
+            }
+          ],
+          "prompt": "[SOURCE]\nMake a premium photographic retouch of this EXACT original shop exterior photograph, preserving the original crop, perspective, EVERY existing object and all text. This is the authoritative original photograph, not an inspiration image.\n[TRANSFORMATION]\nUser-requested correction: stronger tactile photographic texture and richer tonal separation without introducing anything. Preserve deep colorful thread texture, gently neutralize color cast, create restrained contrast, retain natural reflections and subtle fine grain. Keep existing practical lighting and shadow directions. 4500K neutral balance, same original lens and depth of field. No generated geometry.\n[PRESERVATION DIRECTIVE]\nFreeze every sign as an unedited raster region: 精彩线业, 工厂店, 40923, 生意兴隆, Jing Cai Thread, chinagoods.com and all smaller Chinese text. Do not redraw ANY letters. Keep shelving, thread stock, seats, floor, desk and walls exactly.\n[QUALITY]\nNatural premium documentary photograph. Texture comes from tonal grading of original surfaces, not added detail. All existing signs and numbers must be composited unchanged from the supplied source reference.\n[AVOID]\nNo AI artifacts, no text replacement, no new objects, no equipment changes, no new machines, no windows or lighting fixtures, no added people, no retouching shapes, no HDR halos, no oversharpening, no plastic smoothing, no cropping, no perspective change, no new capacity, no blur over signs, no watermarks. Do not invent tiny detail.\nresolution: 2k"
+        }
+      },
+      {
+        "index": 1,
+        "params": {
+          "model": "nano_banana_pro",
+          "resolution": "2k",
+          "count": 1,
+          "aspect_ratio": "3:4",
+          "medias": [
+            {
+              "value": "e72cffae-d475-49ae-a667-0ec89115b092",
+              "role": "image"
+            }
+          ],
+          "prompt": "[SOURCE]\nMake a premium photographic retouch of this EXACT original factory winding-machine photograph, preserving the original crop, perspective, EVERY existing object and all text. This is the authoritative original photograph, not an inspiration image.\n[TRANSFORMATION]\nUser-requested correction: stronger tactile photographic texture and richer tonal separation without introducing anything. Preserve deep black thread texture, gently neutralize color cast, create restrained contrast, retain natural reflections and subtle fine grain. Keep existing practical lighting and shadow directions. 4500K neutral balance, same original lens and depth of field. No generated geometry.\n[PRESERVATION DIRECTIVE]\nFreeze every mechanical part, spool, motor, fixture and control-box label as original image content. Specifically the two nearest fully visible control panels on the right retain original numbers 35 then 36 from left to right. Do not make repeated number 28. Preserve all other numbers and text without redrawing. Keep blank wall blank and preserve all marks.\n[QUALITY]\nNatural premium documentary photograph. Texture comes from tonal grading of original surfaces, not added detail. All existing signs and numbers must be composited unchanged from the supplied source reference.\n[AVOID]\nNo AI artifacts, no text replacement, no new objects, no equipment changes, no new machines, no windows or lighting fixtures, no added people, no retouching shapes, no HDR halos, no oversharpening, no plastic smoothing, no cropping, no perspective change, no new capacity, no blur over signs, no watermarks. Do not invent tiny detail.\nresolution: 2k"
+        }
+      }
+    ],
+    "results": [
+      {
+        "index": 0,
+        "job_id": "1f5b2f22-2db0-4fff-b731-67b1447f13da",
+        "status": "completed",
+        "type": "image",
+        "model": "nano_banana_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_31b9DfIjEjbo1G4mmQoYDQYwVWU/hf_20260905_085937_1f5b2f22-2db0-4fff-b731-67b1447f13da.png"
+      },
+      {
+        "index": 1,
+        "job_id": "47b30180-049c-4723-83c7-26da000a4052",
+        "status": "completed",
+        "type": "image",
+        "model": "nano_banana_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_31b9DfIjEjbo1G4mmQoYDQYwVWU/hf_20260905_085937_47b30180-049c-4723-83c7-26da000a4052.png"
+      }
+    ]
+  },
+  "final": {
+    "requests": [
+      {
+        "index": 0,
+        "params": {
+          "model": "nano_banana_pro",
+          "resolution": "2k",
+          "count": 1,
+          "aspect_ratio": "3:2",
+          "medias": [
+            {
+              "role": "image",
+              "value": "1f5b2f22-2db0-4fff-b731-67b1447f13da"
+            }
+          ],
+          "prompt": "Refine this photograph. Keep composition, subject, framing, store number 40923, main sign 精彩线业 and 工厂店, thread stock, all geometry, all tonal and tactile qualities IDENTICAL. Only correct the small Chinese text on the horizontal red strip across the RIGHT glass display window: it reads exactly \"义乌小商品城\" above the unchanged existing \"chinagoods.com\". Preserve its position, type scale and logo. Do not change any other lettering, lighting, object, surface or texture. Professional retouching, no added features, no false words, no AI artifacts.\nresolution: 2k"
+        }
+      },
+      {
+        "index": 1,
+        "params": {
+          "model": "nano_banana_pro",
+          "resolution": "2k",
+          "count": 1,
+          "aspect_ratio": "3:4",
+          "medias": [
+            {
+              "role": "image",
+              "value": "47b30180-049c-4723-83c7-26da000a4052"
+            }
+          ],
+          "prompt": "Refine this photograph. Keep composition, subject, framing, entire winding machinery, all spools, all motors and materials, rich black thread texture and premium restrained contrast IDENTICAL. Only correct the tiny control-box number on the SECOND nearest complete white control box from the right edge, around x=69% y=45%: change its currently printed 36 to 35. The nearest complete control box at x=87% stays 36. Do not change any other lettering or mechanical geometry. No new machines, objects, lights, windows or features. Photographic retouching with no AI artifacts.\nresolution: 2k"
+        }
+      }
+    ],
+    "results": [
+      {
+        "index": 0,
+        "job_id": "3b89596c-d08f-488b-b80e-76bea549f113",
+        "status": "completed",
+        "type": "image",
+        "model": "nano_banana_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_31b9DfIjEjbo1G4mmQoYDQYwVWU/hf_20260905_090329_3b89596c-d08f-488b-b80e-76bea549f113.png"
+      },
+      {
+        "index": 1,
+        "job_id": "667dbb94-eb04-4e0e-93a4-1e927eeab62b",
+        "status": "completed",
+        "type": "image",
+        "model": "nano_banana_2",
+        "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_31b9DfIjEjbo1G4mmQoYDQYwVWU/hf_20260905_090329_667dbb94-eb04-4e0e-93a4-1e927eeab62b.png"
+      }
+    ]
+  },
+  "local_outputs": [
+    "/tmp/jingcai-factory-polish/storefront-v3.png",
+    "/tmp/jingcai-factory-polish/factory-v3.png"
+  ]
+}

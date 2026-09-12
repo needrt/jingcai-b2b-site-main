@@ -1,0 +1,316 @@
+import type { Translations } from '../types';
+
+export const de: Translations = {
+  topline: {
+    company: 'PUJIANG JINGCAI THREAD CO., LTD.',
+    tagline: 'Von unseren Garnen zu Ihrer nächsten Kreation.',
+  },
+  header: {
+    wordmarkSub: 'GARN MIT INTEGRITÄT.',
+    navProducts: 'Unsere Nähgarne',
+    navColors: 'Farbpalette',
+    navFactory: 'Unsere Fabrik',
+    navFilms: 'Produktionsvideos',
+    cta: 'Kontakt aufnehmen',
+    skipLink: 'Zum Inhalt springen',
+    menuClose: 'Menü schließen',
+    menuOpen: 'Menü öffnen',
+    langSelectLabel: 'Sprache ändern',
+  },
+  hero: {
+    eyebrow: 'PRÄZISE HERGESTELLT. SEIT 1995.',
+    title1: 'Großes Handwerk',
+    title2: 'beginnt mit',
+    title3: 'einem guten Faden.',
+    desc1: 'Nähgarne, die Ihre Entwürfe zusammenhalten.',
+    desc2: 'Sorgfältig gefertigt. Gefärbt mit grenzenlosen Möglichkeiten.',
+    btnProducts: 'Kollektion entdecken',
+    btnContact: 'Den passenden Faden finden',
+    note: 'IHR PARTNER VOM ERSTEN STICH BIS ZUM FERTIGEN PRODUKT.',
+    visualLabel: 'EINE WELT VOLLER FARBEN. EIN FADEN VOLLER QUALITÄT.',
+    collectionIndex: '01 / DIE JINGCAI KOLLEKTION',
+    scrollPrompt: 'NACH UNTEN SCROLLEN ↓',
+  },
+  proof: {
+    yearVal: '1995',
+    yearLabel: 'Beginn unserer Geschichte',
+    colorsVal: '2.000+',
+    colorsLabel: 'Verfügbare Farbnuancen im Sortiment',
+    partnerVal: 'Ein Partner.',
+    partnerLabel: 'Vom Färben bis zum fertigen Nähgarn',
+    badge1: 'Entwickelt für die industrielle Fertigung.',
+    badge2: 'Perfekt abgestimmt auf Ihre Anforderungen.',
+  },
+  products: {
+    eyebrow: '01 / UNSERE NÄHGARNE',
+    title1: 'Feinste Details.',
+    title2: 'Unendliche Vielfalt.',
+    subtitle1: 'Entdecken Sie unsere Polyester-Nähgarne der Marke Qianye.',
+    subtitle2:
+      'Eine Farbpalette für jedes Projekt, ein verlässlicher Partner für jeden Auftrag.',
+    cardTag: 'POLYESTER-NÄHGARN',
+    cardViewSpec: 'Qianye Kollektion · Spezifikationen anzeigen',
+    items: {
+      everyday: {
+        name: 'Alltägliche Basics',
+        note: 'WEISS- UND NEUTRALTÖNE',
+      },
+      depth: {
+        name: 'Tiefe in jedem Stich',
+        note: 'DUNKLE & KLASSISCHE TÖNE',
+      },
+      standout: {
+        name: 'Setzt Akzente',
+        note: 'LEBENDIGE & AUSDRUCKSSTARKE FARBEN',
+      },
+    },
+    rangeNote:
+      'Suchen Sie Baumwollnähgarn oder eine bestimmte Garnstärke? Besprechen Sie Garne von 20s/2 bis 60s/3 mit unserem Fachteam.',
+    rangeCta: 'Technische Spezifikationen anfragen',
+  },
+  colors: {
+    caption: 'QIANYE KOLLEKTION / ORIGINALPRODUKTFOTOGRAFIE',
+    eyebrow: '02 / FINDEN SIE IHRE FARBE',
+    title1: 'Ihre Vision.',
+    title2: 'Farblich exakt abgestimmt.',
+    desc: 'Von dezenten Naturtönen bis hin zu ausdrucksstarken Farbtönen – finden Sie das Garn für Ihre Kollektion. Entdecken Sie einige unserer Nuancen.',
+    finePrint:
+      'Bildschirmfarben dienen der Orientierung. Fordern Sie ein physisches Farbmuster zur Farbabstimmung an.',
+    sampleBtn: 'Farbmuster anfordern',
+    sampleWaMsg:
+      'Hallo Isla, ich möchte ein physisches Farbmuster für das Nähgarn in {color} anfordern. Bitte teilen Sie verfügbare Stärken und Musterkonditionen mit.',
+    names: {
+      navy: 'Mitternachtsmarine',
+      white: 'Reinweiß',
+      red: 'Karmesinrot',
+      yellow: 'Goldgelb',
+      sky: 'Himmelblau',
+      pink: 'Zartrosa',
+      purple: 'Königsviolett',
+      wine: 'Burgund',
+      lavender: 'Sanftes Lavendel',
+    },
+  },
+  about: {
+    eyebrow: '03 / DREI JAHRZEHNTE ERFAHRUNG',
+    title1: 'Solides Handwerk.',
+    title2: 'Bereit für Ihre nächste Bestellung.',
+    p1: 'Seit 1995 vereint Pujiang Jingcai Thread Co., Ltd. eigene Färberei und Nähgarnproduktion unter einem Dach. Unsere Marke Qianye basiert auf dem Grundsatz: Dauerhafte Partnerschaften beginnen mit Sorgfalt im Detail.',
+    p2: 'Von unserem Fertigungsstandort in Zhejiang, China, beliefern wir Kunden im In- und Ausland – darunter Europa, Südostasien, Zentralasien und Afrika.',
+    point1: 'Integrierte Produktion: Eigenes Färben und Spulen',
+    point2: 'Polyester- und Baumwollgarne nach Maß',
+    point3: 'OEM / ODM-Fertigung und präzise Farbanpassung',
+    fbLink: 'Jingcai auf Facebook entdecken',
+    estYear: 'GEGRÜNDET 1995',
+    location: 'PUJIANG, ZHEJIANG · CHINA',
+    appEyebrow: 'IM DETAIL ZEIGT SICH DIE QUALITÄT.',
+    appTitle1: 'Ein erstklassiges Nahtbild',
+    appTitle2: 'beginnt hier.',
+    appP1: 'Bekleidung. Heimtextilien. Alltagsprodukte.',
+    appP2:
+      'Sagen Sie uns, was Sie herstellen. Wir helfen Ihnen, das ideale Material, die optimale Fadenstärke und die perfekte Farbe auszuwählen.',
+    appLink: 'Anwendungsmöglichkeiten besprechen',
+  },
+  factoryShowcase: {
+    eyebrow: 'EINBLICK BEI JINGCAI',
+    heading1: 'Mehr als ein Händler.',
+    heading2: 'Der Ort, an dem gefertigt wird.',
+    intro:
+      'Betreten Sie unsere Fertigungshallen. Vom Färben über das Spulen bis zu den verpackten Konen – erleben Sie die Arbeit hinter unseren Nähgarnen.',
+    watchLink: 'Die Fabrik in Bewegung sehen',
+    stories: [
+      {
+        num: '01',
+        title: 'Farbe direkt an der Quelle.',
+        desc: 'Integrierte Färberei und Spulerei vereinen Ihre Farb- und Qualitätsansprüche in einem einzigen direkten Gespräch.',
+      },
+      {
+        num: '02',
+        title: 'Exakt nach Ihrem Auftrag.',
+        desc: 'Besprechen Sie Garnstärke, Lauflänge, Nuancen und Verpackung mit unserem Team vor Freigabe der Serie.',
+      },
+      {
+        num: '03',
+        title: 'Echte Einblicke statt Katalog.',
+        desc: 'Sehen Sie unseren Maschinenpark, den Fertigungsalltag und die Verpackung in authentischen Fotos und Videos.',
+      },
+    ],
+    photos: {
+      production: {
+        label: '01 / IN DER FERTIGUNGSHALLE',
+        title: 'Präzise Fertigung im Fokus',
+        desc: 'Reihen moderner Spul- und Zwirnmaschinen in den Jingcai-Hallen.',
+      },
+      dyeing: {
+        label: '02 / FÄRBEREI',
+        title: 'Wo Farbe Form annimmt',
+        desc: 'Garnkonen und Hochdruck-Färbeanlagen der Fabrik.',
+      },
+      winding: {
+        label: '03 / SPULEN',
+        title: 'Vom Faden zur Konusspule',
+        desc: 'Weiße Garnkonen auf den Hochgeschwindigkeits-Spullinien.',
+      },
+      people: {
+        label: '04 / ALLTÄGLICHE PRODUKTION',
+        title: 'Die Fachkräfte hinter dem Garn',
+        desc: 'Das Werksteam an den Spul- und Prüfstationen.',
+      },
+      packing: {
+        label: '05 / VERPACKUNG',
+        title: 'Bereit für den Versand',
+        desc: 'Gepackte Garnkonen in stabilen Exportkartons.',
+      },
+    },
+    store: {
+      photoLabel: 'WERKS-SHOWROOM & STORE',
+      eyebrow: 'PERSÖNLICHER DIALOG VOR ORT',
+      title1: 'Echte Farben.',
+      title2: 'Direkter Austausch.',
+      p1: 'Unser Showroom präsentiert die gesamte Qianye-Kollektion an einem Ort. Fühlen Sie die Konen, vergleichen Sie Farbtöne und besprechen Sie Ihre Anforderungen.',
+      p2: 'Planen Sie einen Besuch? Kontaktieren Sie Isla zur Termin- und Routenabstimmung.',
+      visitBtn: 'Besuch vereinbaren',
+      visitWaMsg:
+        'Hallo Isla, ich möchte den Werks-Store von Jingcai besuchen. Könnten Sie die Adresse und einen passenden Termin bestätigen?',
+      location: 'Zhejiang, China · Besuche nach Vereinbarung',
+      detailEyebrow: 'VOM MUSTER ZUR PARTNERSCHAFT',
+      detailTitle1: 'Genauer hinschauen.',
+      detailTitle2: 'Mit voller Überzeugung entscheiden.',
+      detailP:
+        'Bringen Sie ein Stoffmuster, einen Farbcode oder technische Vorgaben mit – wir finden gemeinsam die ideale Garnlösung.',
+      talkTeam: 'Vertriebsteam kontaktieren',
+    },
+  },
+  factoryFilms: {
+    eyebrow: 'DIE FABRIK IN BEWEGUNG',
+    heading1: 'Sehen Sie unsere Fertigung.',
+    heading2: 'Lernen Sie Ihren Partner kennen.',
+    intro1: 'Ein Fenster in den Produktionsalltag bei Jingcai.',
+    intro2: 'Echte Aufnahmen direkt aus unseren Hallen auf Ihren Bildschirm.',
+    tiktokLink: 'Folgen Sie @jingcai.thread auf TikTok',
+    fieldNotes: 'JINGCAI / EINBLICKE AUS DER PRAXIS',
+    playlistHeading: 'VIDEOS ENTDECKEN',
+    videoError: 'Dieses Video konnte nicht abgespielt werden.',
+    openVideo: 'Videodatei direkt öffnen',
+    watchTiktok: 'Auf TikTok ansehen',
+    moreTiktok: 'Weitere Videos auf TikTok',
+    items: {
+      'film-01': {
+        category: 'PRODUKTION',
+        title: 'An der Fertigungslinie',
+        desc: 'Nahaufnahme laufender Spulmaschinen und gewickelter Garnpackungen.',
+      },
+      'film-02': {
+        category: 'SPULEN',
+        title: 'Eine Welt voller Farben in Bewegung',
+        desc: 'Bunte Garnkonen an den Spulstationen in der Werkhalle.',
+      },
+      'film-03': {
+        category: 'FÖRDERBAND',
+        title: 'Entlang der Förderlinie',
+        desc: 'Weiße Garnkonen, die kontinuierlich auf Transportbändern laufen.',
+      },
+      'film-04': {
+        category: 'WERKHALLE',
+        title: 'Der Rhythmus der Fertigung',
+        desc: 'Weitwinkelblick über die gesamte Halle und lange Spulmaschinenreihen.',
+      },
+      'film-05': {
+        category: 'FÖRDERBAND',
+        title: 'Von einer Kone zur nächsten',
+        desc: 'Transport weißer Konen und Details der sorgfältigen Verpackung.',
+      },
+      'film-06': {
+        category: 'DETAILS',
+        title: 'Jede Kone auf ihrem Weg',
+        desc: 'Dunkle Garnkonen auf der Förderstraße neben den Maschinen.',
+      },
+      'film-07': {
+        category: 'VERPACKUNG',
+        title: 'Verpackt und versandbereit',
+        desc: 'Kartonagen gefüllt mit farblich sortierten Nähgarnkonen.',
+      },
+    },
+  },
+  faq: {
+    eyebrow: 'VOR IHRER ERSTEN BESTELLUNG',
+    title1: 'Wichtige Eckdaten',
+    title2: 'für einen einfachen Start.',
+    moreQuestions: 'Haben Sie weitere Fragen?',
+    items: [
+      {
+        q: 'Welche Garnstärken bieten Sie an?',
+        a: 'Unser Standardsortiment umfasst 20s/2, 20s/3, 20s/6, 30s/2, 30s/3, 40s/2, 40s/3, 50s/2, 50s/3, 60s/2 und 60s/3. Kontaktieren Sie uns zur Bestätigung von Lauflänge, Nettogewicht und Verfügbarkeit.',
+      },
+      {
+        q: 'Kann ich Muster oder individuelle Farben anfordern?',
+        a: 'Ja, gerne stimmen wir Farbmuster mit Ihnen ab. Senden Sie uns eine Pantone-Referenz oder ein Stoffmuster sowie die gewünschte Fadenstärke und den Einsatzbereich.',
+      },
+      {
+        q: 'Wie hoch sind Mindestbestellmenge (MOQ) und Lieferzeit?',
+        a: 'Mindestmengen und Lieferzeiten hängen von Garnspezifikation, Farbwahl, Konfektionierung und Bestellvolumen ab. Nennen Sie uns Ihre Anforderungen für ein maßgeschneidertes Angebot.',
+      },
+      {
+        q: 'Stellen Sie Qualitätszertifikate bereit?',
+        a: 'Unser Unternehmen produziert nach ISO 9001:2015 und verfügt über OEKO-TEX Prüfberichte. Fordern Sie die aktuellen Dokumente bei unserem Vertriebsteam an.',
+      },
+    ],
+  },
+  contact: {
+    eyebrow: '04 / LASSEN SIE UNS ZUSAMMENARBEITEN',
+    title1: 'Guter Faden.',
+    title2: 'Starke Partnerschaft.',
+    desc1: 'Beschreiben Sie uns die Anforderungen Ihres nächsten Projekts.',
+    desc2: 'Finden wir gemeinsam das ideale Garn.',
+    contactRole: 'Ihre Ansprechpartnerin bei Jingcai · Englisch / Chinesisch',
+    waWechat: 'WhatsApp / WeChat',
+    locationChina: 'Zhejiang, China',
+    formHeading: 'Anfrage starten',
+    formSub: 'Teilen Sie uns ein paar Details mit. Wir übernehmen den Rest.',
+    nameLabel: 'Ihr Name',
+    namePlaceholder: 'Vollständiger Name',
+    companyLabel: 'Unternehmen',
+    companyPlaceholder: 'Name des Unternehmens',
+    emailLabel: 'Geschäftliche E-Mail',
+    emailPlaceholder: 'sie@unternehmen.de',
+    reqLabel: 'Was benötigen Sie?',
+    reqPlaceholder:
+      'Garnstärke, Farben, Lauflänge, Einsatzbereich und Zielort…',
+    submitBtn: 'WhatsApp-Anfrage vorbereiten',
+    formNote:
+      'Sie können Ihre Nachricht vor dem Senden in WhatsApp überprüfen. Ihre Angaben werden nicht auf dieser Website gespeichert.',
+    readyTitle: 'Ihre Anfrage ist vorbereitet.',
+    readyDesc:
+      'Öffnen Sie WhatsApp, um die Nachricht zu prüfen und direkt an Isla zu senden.',
+    readyBtn: 'Weiter zu WhatsApp',
+    waMsgTemplate:
+      'Hallo Isla, ich möchte ein Angebot von Jingcai anfordern.\nName: {name}\nFirma: {company}\nE-Mail: {email}\nAnforderungen: {requirements}',
+  },
+  productDialog: {
+    title: 'Qianye Polyester-Nähgarn',
+    subtitle: 'Besprechen Sie die passende Spezifikation für Ihre Fertigung.',
+    badge: '100% SPUN POLYESTER',
+    heading: 'Hergestellt für belastbare Nähte.',
+    brandLabel: 'Marke',
+    brandVal: 'Qianye / 千叶',
+    countsLabel: 'Verfügbare Stärken',
+    countsVal:
+      '20s/2, 20s/3, 20s/6, 30s/2, 30s/3, 40s/2, 40s/3, 50s/2, 50s/3, 60s/2, 60s/3',
+    exampleLabel: 'Typisches Beispiel',
+    exampleVal: '40s/2 · 5000 Yards · 140 g Nettogewicht',
+    packingLabel: 'Farben & Verpackung',
+    packingVal: 'Individuell nach Kundenwunsch',
+    finePrint:
+      'Das Foto zeigt die Farbvielfalt, keine spezifische Lauflänge oder Stärke. Endgültige Spezifikationen werden im Angebot bestätigt.',
+    quoteBtn: 'Angebot anfordern',
+    quoteWaMsg:
+      'Hallo Isla, ich interessiere mich für Qianye Polyester-Nähgarn in {color}. Bitte teilen Sie mir verfügbare Stärken, Mindestmenge, Preise und Musterkonditionen mit.',
+  },
+  footer: {
+    company: 'Pujiang Jingcai Thread Co., Ltd. · Gegründet 1995',
+    rights:
+      '© {year} Pujiang Jingcai Thread Co., Ltd. Alle Rechte vorbehalten.',
+    tagline: 'Qianye / 千叶 · Vom ersten Stich zu dauerhaften Partnerschaften.',
+    waAria: 'Chat mit Isla auf WhatsApp',
+  },
+};

@@ -1,0 +1,120 @@
+[
+  {
+    "asset": "/images/collection.webp",
+    "source": "assets/产品图/微信图片_20260831210032_23_880.jpg",
+    "type": "user-supplied photograph"
+  },
+  {
+    "asset": "/images/navy.webp",
+    "source": "assets/产品图/微信图片_20260831210041_31_880.jpg",
+    "type": "user-supplied photograph"
+  },
+  {
+    "asset": "/images/white.webp",
+    "source": "assets/产品图/微信图片_20260831210031_22_880.jpg",
+    "type": "user-supplied photograph"
+  },
+  {
+    "asset": "/images/red.webp",
+    "source": "assets/产品图/微信图片_20260831210038_30_880.jpg",
+    "type": "user-supplied photograph"
+  },
+  {
+    "asset": "/images/yellow.webp",
+    "source": "assets/产品图/微信图片_20260831210033_24_880.jpg",
+    "type": "user-supplied photograph"
+  },
+  {
+    "asset": "/images/sky.webp",
+    "source": "assets/产品图/微信图片_20260831210036_27_880.jpg",
+    "type": "user-supplied photograph"
+  },
+  {
+    "asset": "/images/pink.webp",
+    "source": "assets/产品图/微信图片_20260831210037_28_880.jpg",
+    "type": "user-supplied photograph"
+  },
+  {
+    "asset": "/images/purple.webp",
+    "source": "assets/产品图/微信图片_20260831210034_25_880.jpg",
+    "type": "user-supplied photograph"
+  },
+  {
+    "asset": "/images/wine.webp",
+    "source": "assets/产品图/微信图片_20260831210042_33_880.jpg",
+    "type": "user-supplied photograph"
+  },
+  {
+    "asset": "/images/lavender.webp",
+    "source": "assets/产品图/微信图片_20260831210043_34_880.jpg",
+    "type": "user-supplied photograph"
+  },
+  {
+    "asset": "/images/factory.webp",
+    "source": "assets/480421847_556549050731207_6933008275300560421_n.jpg",
+    "type": "user-supplied photograph"
+  },
+  {
+    "asset": "/images/winding.webp",
+    "source": "assets/738261455_948097128243062_8417289358915360673_n.jpg",
+    "type": "user-supplied photograph"
+  },
+  {
+    "asset": "/images/showroom.webp",
+    "source": "assets/2grtatmzhwy1x5qvqnpywirwu1amtlmv.jpg",
+    "type": "user-supplied photograph"
+  },
+  {
+    "asset": "/images/packing.webp",
+    "source": "assets/480666030_557418050644307_5847633198001525732_n.jpg",
+    "type": "user-supplied photograph"
+  },
+  {
+    "asset": "/images/company-profile.webp",
+    "source": "assets/公司介绍.jpg",
+    "type": "user-supplied photograph"
+  },
+  {
+    "asset": "/images/factory-production.webp",
+    "source": "assets/506351476_640014279051350_8439782468278019090_n.jpg",
+    "type": "Exact crop from supplied photo collage; no scene modifications",
+    "crop": [
+      0,
+      0,
+      1024,
+      768
+    ]
+  },
+  {
+    "asset": "/images/factory-dyeing.webp",
+    "source": "assets/506351476_640014279051350_8439782468278019090_n.jpg",
+    "type": "Exact crop from supplied photo collage; no scene modifications",
+    "crop": [
+      1024,
+      0,
+      1536,
+      512
+    ]
+  },
+  {
+    "asset": "/images/factory-team.webp",
+    "source": "assets/506351476_640014279051350_8439782468278019090_n.jpg",
+    "type": "Exact crop from supplied photo collage; no scene modifications",
+    "crop": [
+      0,
+      768,
+      1024,
+      1536
+    ]
+  },
+  {
+    "asset": "/images/showroom-enhanced.webp",
+    "source": "assets/2grtatmzhwy1x5qvqnpywirwu1amtlmv.jpg",
+    "type": "Higgsfield enhanced original photograph; see factory-refinement.json"
+  },
+  {
+    "asset": "/images/factory-enhanced.webp",
+    "source": "/images/factory.webp",
+    "type": "Higgsfield enhanced original photograph; see factory-refinement.json"
+  }
+]

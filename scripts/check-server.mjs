@@ -1,0 +1,24 @@
+import assert from 'node:assert/strict';
+const base=process.env.TEST_BASE_URL || 'http://localhost:3001';
+const locales=['en','ar','es','ru','fr','pt','de','ja','ko','vi'];
+await Promise.all(locales.map(async locale=>{
+  const response=await fetch(base+(locale==='en'?'/':`/${locale}/`));
+  assert.equal(response.status,200,`${locale}: HTTP 200`);
+  assert.equal(response.headers.get('x-powered-by'),null);
+  const html=await response.text();
+  assert.ok(html.includes(`<html lang="${locale}" dir="${locale==='ar'?'rtl':'ltr'}"`),`${locale}: correct server locale`);
+  assert.ok(html.includes('id="products"'));
+  assert.ok(html.includes('rel="canonical"'));
+}));
+for(const route of ['/this-page-does-not-exist/','/zh/','/en/']) assert.equal((await fetch(base+route)).status,404,`${route}: HTTP 404`);
+assert.equal((await fetch(base+'/ar',{redirect:'manual'})).status,308,'normalized trailing slash');
+assert.equal((await fetch(base+'/sitemap.xml')).status,200);
+assert.equal((await fetch(base+'/robots.txt')).status,200);
+const image=await fetch(base+'/_next/image?url=%2Fimages%2Fhero.webp&w=640&q=75');
+assert.equal(image.status,200,'Next Image optimizer');
+assert.ok(image.headers.get('content-type')?.startsWith('image/'));
+await image.arrayBuffer();
+const video=await fetch(base+'/videos/film-01.mp4',{headers:{Range:'bytes=0-1023'}});
+assert.equal(video.status,206,'video range support');
+assert.equal((await video.arrayBuffer()).byteLength,1024);
+console.log('Production Next.js HTTP checks passed: 10 locales, 404s, slash redirect, sitemap, robots, image optimization and video byte ranges.');
