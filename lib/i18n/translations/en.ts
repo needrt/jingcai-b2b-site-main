@@ -300,7 +300,7 @@ export const en: Translations = {
     packingVal: 'Discuss with our team',
     finePrint:
       'Photo shows the color collection, not a specific count or winding length. Confirm final specifications and availability with your quotation.',
-    quoteBtn: 'Ask for a quotation',
+    quoteBtn: 'Request a quote',
     quoteWaMsg:
       'Hi Isla, I am interested in Qianye polyester sewing thread in {color}. Please share available counts, minimum order, pricing and sample options.',
   },

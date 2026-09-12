@@ -3,7 +3,7 @@ import { SUPPORTED_LOCALES, type Locale, type Translations } from '@/lib/i18n/ty
 import { localePath } from '@/lib/i18n/routing';
 import { seoCopy } from './copy';
 
-const configuredUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://jingcaithread.com';
+const configuredUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.jingcaithread.com';
 const parsedUrl = new URL(configuredUrl);
 if (!['https:', 'http:'].includes(parsedUrl.protocol) || parsedUrl.pathname !== '/' || parsedUrl.search || parsedUrl.hash) throw new Error('NEXT_PUBLIC_SITE_URL must be an origin, e.g. https://jingcaithread.com');
 export const SITE_URL = parsedUrl.origin;
